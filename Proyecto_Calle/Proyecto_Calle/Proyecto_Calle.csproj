@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30FB981B-5F06-4A5F-AB51-54EFE3BF3DB2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyecto_Calle</RootNamespace>
+    <AssemblyName>Proyecto_Calle</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IconoCarro.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dificultad3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dificultad3.Designer.cs">
+      <DependentUpon>Dificultad3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dificultad2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dificultad2.Designer.cs">
+      <DependentUpon>Dificultad2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dificultad1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dificultad1.Designer.cs">
+      <DependentUpon>Dificultad1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresar Datos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingresar Datos.Designer.cs">
+      <DependentUpon>Ingresar Datos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modos de juego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modos de juego.Designer.cs">
+      <DependentUpon>Modos de juego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel9.Designer.cs">
+      <DependentUpon>Nivel9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel8.Designer.cs">
+      <DependentUpon>Nivel8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel7.Designer.cs">
+      <DependentUpon>Nivel7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel6.Designer.cs">
+      <DependentUpon>Nivel6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel5.Designer.cs">
+      <DependentUpon>Nivel5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel4.Designer.cs">
+      <DependentUpon>Nivel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel3.Designer.cs">
+      <DependentUpon>Nivel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel2.Designer.cs">
+      <DependentUpon>Nivel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel1.Designer.cs">
+      <DependentUpon>Nivel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dificultad3.resx">
+      <DependentUpon>Dificultad3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dificultad2.resx">
+      <DependentUpon>Dificultad2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dificultad1.resx">
+      <DependentUpon>Dificultad1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingresar Datos.resx">
+      <DependentUpon>Ingresar Datos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modos de juego.resx">
+      <DependentUpon>Modos de juego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel9.resx">
+      <DependentUpon>Nivel9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel8.resx">
+      <DependentUpon>Nivel8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel7.resx">
+      <DependentUpon>Nivel7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel6.resx">
+      <DependentUpon>Nivel6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel5.resx">
+      <DependentUpon>Nivel5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel4.resx">
+      <DependentUpon>Nivel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel3.resx">
+      <DependentUpon>Nivel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel2.resx">
+      <DependentUpon>Nivel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel1.resx">
+      <DependentUpon>Nivel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anciano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarroAmarillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarroAzul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarroNegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarroRojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarroVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Death.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel1-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Atras_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Atras_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Atras_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Derecha_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Derecha_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Derecha_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Frente_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Frente_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Izquierda_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Izquierda_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Izquierda_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transito_Derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transito_Izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tree1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Victory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personaje_Frente_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pausa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconoCarro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PasoPeatonal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Semaforo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SemaforoRojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SemaforoVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivel2-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IconoCarro.ico" />
+    <None Include="Resources\return_arrow.png" />
+    <None Include="Resources\Fondo3.gif" />
+    <None Include="Resources\Fondo2.png" />
+    <None Include="Resources\Fondo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
